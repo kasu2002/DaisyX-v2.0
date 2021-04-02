@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of SAKURA (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -20,10 +20,10 @@ from importlib import import_module
 from aiogram import executor
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
-from DaisyX import TOKEN, bot, dp
-from DaisyX.config import get_bool_key, get_list_key
-from DaisyX.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
-from DaisyX.utils.logger import log
+from SAKURA import TOKEN, bot, dp
+from SAKURA.config import get_bool_key, get_list_key
+from SAKURA.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
+from SAKURA.utils.logger import log
 
 if get_bool_key("DEBUG_MODE"):
     log.debug("Enabling logging middleware.")
